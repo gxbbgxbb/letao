@@ -46,11 +46,13 @@ img{
 	color:darkorange;
 }
 
+/* 以上为公共样式 */
+
 .mui-scroll-wrapper{
 	top:44px;
 	bottom:50px;
 }
-
+/* 产品块 */
 .product{
 	padding:0 10px;
 }
