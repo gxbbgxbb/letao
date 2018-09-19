@@ -1,0 +1,29 @@
+/* 注册页面 */
+.getCode{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color:#006699;
+}
+.login-button{
+    width: 100%;
+    padding: 0 10px;
+}
+.login-button #register-btn{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    background:#006699;
+}
+.login-now{
+    display: block;
+    text-align: right;
+    color:#069;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+#register-form::after{
+   height: 0;
+}
+/*  */
