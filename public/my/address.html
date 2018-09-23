@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +17,7 @@
     <script src="js/public.js"></script>
     <script src="js/address.js"></script>
     <style>
-        .addAddress{
+        .addAddress {
             display: block;
             width: 100%;
             padding: 10px 0;
@@ -25,6 +26,7 @@
         }
     </style>
 </head>
+
 <body>
     <!-- 头部 -->
     <header class="mui-bar mui-bar-nav header">
@@ -53,18 +55,18 @@
     </nav>
     <!-- 中部 -->
     <div class="mui-content">
-        <a href="addAddress.html" class="addAddress">添加收货地址</a>
+        <a href="addAddress.html?isEdit=0" class="addAddress">添加收货地址</a>
         <ul class="mui-table-view address-box">
-            <!-- 地址坑 -->  
+            <!-- 地址坑 -->
         </ul>
     </div>
     <script type="text/html" id="addressTpl">
         {{each}}
             <li class="mui-table-view-cell">
                 <div class="mui-slider-right mui-disabled">
-                    <a class="mui-btn mui-btn-blue
-                    edit-btn" data-id="{{$value.id}}">编辑</a>
-                    <a class="mui-btn mui-btn-red dalete-btn" data-id="{{$value.id}}">删除</a>
+                    <span href="javascript:;" class="mui-btn mui-btn-blue
+                    edit-btn" data-id="{{$value.id}}">编辑</span>
+                    <a href="javascript:;" class="mui-btn mui-btn-red delete-btn" data-id="{{$value.id}}">删除</a>
                 </div>
                 <div class="mui-slider-handle">
                     <div class="mui-media-body">
@@ -79,4 +81,5 @@
         {{/each}}
     </script>
 </body>
+
 </html>

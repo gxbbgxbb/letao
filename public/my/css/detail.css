@@ -1,0 +1,83 @@
+.product-title{
+    font-size: 16px;
+    padding: 10px;
+}
+.price{
+    padding: 10px;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    font-size: 14px;
+}
+.price .now{
+    font-size: 24px;
+    color: #ea543d;
+}
+.price .old{
+    color:#ccc;
+    text-decoration: line-through;
+    padding-left: 10px;
+}
+.size{
+    padding: 10px;
+    font-size: 14px;
+}
+.size span{
+    border: 1px solid #ccc;
+    display:inline-block;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+.size .active{
+    color:#fff;
+    background-color: #fa672d;
+}
+
+/* 数量 */
+.num{
+    padding: 10px;
+    overflow: hidden;
+    font-size: 14PX;
+    line-height: 28px;
+    border-top:1px solid #ccc;
+}
+.selectNum{
+    padding-right: 10px;
+}
+#reduce,
+#increase,
+#inp{
+    float: left;
+    width: 28px;
+    height: 28px;
+    border:1px solid #ccc;
+    text-align: center;
+    line-height: 28px;
+}
+#inp{
+    margin: 0;
+    padding: 0;
+}
+/* 按钮 */
+.btns{
+    padding: 10px;
+    overflow: hidden;
+}
+.btns a,
+.btns span{
+    float: left;
+    width: 50%;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 14px;
+    color:#fff;
+    background-color: orange;
+}
+.btns span{
+    background-color: darkred;
+}
+
+

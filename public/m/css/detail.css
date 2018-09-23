@@ -44,7 +44,7 @@
 	color: #FFF;
 	background: #fa672d;
 }
-
+/* 数量 */
 .num {
 	padding: 10px;
 	overflow: hidden;
@@ -76,7 +76,7 @@
 	border-left: none;
 	border-right: none;
 }
-
+/* 按钮 */
 .btns {
 	padding: 10px;
 	overflow: hidden;
